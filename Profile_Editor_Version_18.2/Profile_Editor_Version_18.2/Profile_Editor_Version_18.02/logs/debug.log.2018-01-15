@@ -1,0 +1,21 @@
+17:57:29 ERROR - [60 - ] SLF4J: This version of SLF4J requires log4j version 1.2.12 or later. See also http://www.slf4j.org/codes.html#log4j_version 
+17:57:29 ERROR - [139 - com.profileeditor.modules.filesystemeditor.listener.FSMenuListener] Unable To Read File:0001 - InvalidSWException 
+17:59:00 ERROR - [434 - com.profileeditor.modules.filesystemeditor.listener.FSMenuListener] Card Selection Exception 
+17:59:00 ERROR - [136 - com.profileeditor.modules.filesystemeditor.listener.FSMenuListener] Unable To Read File:0001 - NullPointerException 
+17:59:31 ERROR - [434 - com.profileeditor.modules.filesystemeditor.listener.FSMenuListener] Card Selection Exception 
+17:59:31 ERROR - [136 - com.profileeditor.modules.filesystemeditor.listener.FSMenuListener] Unable To Read File:0001 - NullPointerException 
+17:59:36 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+17:59:37 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+17:59:49 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+17:59:49 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+17:59:51 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+17:59:56 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+17:59:57 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+17:59:58 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+17:59:58 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+18:00:51 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+18:00:52 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+18:01:01 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+18:01:01 ERROR - [127 - com.cardcentric.cardreadermodule.controller.CardReaderController] No Card Readers Detected 
+18:02:00 INFO  - [55 - com.cardcentric.cardreadermodule.controller.CRMenuItemController] Card Reader ACS CCID USB Reader 0 Selected 
+18:02:03 ERROR - [60 - ] SLF4J: This version of SLF4J requires log4j version 1.2.12 or later. See also http://www.slf4j.org/codes.html#log4j_version 

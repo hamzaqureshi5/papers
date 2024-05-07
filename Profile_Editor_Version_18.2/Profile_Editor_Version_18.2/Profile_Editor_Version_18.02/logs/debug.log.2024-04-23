@@ -1,0 +1,253 @@
+15:01:37 INFO  - [445 - com.platform.module.templateModule.TemplateModule] Javelin SIM Template Added Into File System 
+15:06:17 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:07:06 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:07:06 INFO  - [157 - com.cardcentric.module.fin.listener.FinModuleListener] NullPointerException - Unable To Reset. Please Check Card 
+15:08:32 INFO  - [112 - com.cardcentric.prepersojavamodule.perso.PersoController] Pre-Personalisation 
+15:08:32 INFO  - [115 - com.cardcentric.prepersojavamodule.perso.PersoController] Setting AID values 
+15:08:32 INFO  - [128 - com.cardcentric.prepersojavamodule.perso.PersoController] Sending Recycle Commands 
+15:08:45 INFO  - [88 - com.cardcentric.module.fin.pdf.GeneratePdf] PDF Generated successfully 
+15:09:47 ERROR - [140 - com.cardcentric.module.fin.perso.PersonaliseCard$1] null 
+15:10:00 INFO  - [225 - com.cardcentric.module.fin.FinModule] Personalisation window has been cleared 
+15:10:23 ERROR - [60 - ] Exception in thread "Thread-10" java.lang.IndexOutOfBoundsException: Index: 13 is not between 0 and 2 
+15:10:23 ERROR - [60 - ] 	at com.simulity.api.hubb.ByteString.byteAt(ByteString.java:341) 
+15:10:23 ERROR - [60 - ] 	at com.simulity.module.fin.listener.FinModuleListener.selectAndRead(FinModuleListener.java:611) 
+15:10:23 ERROR - [60 - ] 	at com.simulity.module.fin.listener.FinModuleListener.access$400(FinModuleListener.java:82) 
+15:10:23 ERROR - [60 - ] 	at com.simulity.module.fin.listener.FinModuleListener$6.run(FinModuleListener.java:271) 
+15:10:23 ERROR - [60 - ] 	at java.lang.Thread.run(Unknown Source) 
+15:10:55 INFO  - [225 - com.cardcentric.module.fin.FinModule] Personalisation window has been cleared 
+15:11:21 INFO  - [177 - com.cardcentric.module.fin.listener.FinModuleListener$2] HubbException - Unable to recycle. Please Check Card 
+15:11:39 INFO  - [55 - com.cardcentric.cardreadermodule.controller.CRMenuItemController] Card Reader JAVACOS Virtual Contact Reader 0 Selected 
+15:11:48 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:12:15 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:12:36 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:12:36 INFO  - [157 - com.cardcentric.module.fin.listener.FinModuleListener] NullPointerException - Unable To Reset. Please Check Card 
+15:12:59 ERROR - [220 - com.cardcentric.osinfo.OSInfo$2$1] Card Not Found 
+15:13:40 ERROR - [220 - com.cardcentric.osinfo.OSInfo$2$1] Card Not Found 
+15:14:28 WARN  - [787 - com.cardcentric.osinfo.OSInfo] Currently Unable To Decode The Supplied ATR. 
+15:14:40 WARN  - [783 - com.cardcentric.osinfo.OSInfo] Card Details Updated From Given ATR. 
+15:15:05 ERROR - [220 - com.cardcentric.osinfo.OSInfo$2$1] Card Not Found 
+15:15:15 WARN  - [783 - com.cardcentric.osinfo.OSInfo] Card Details Updated From Given ATR. 
+15:15:32 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:15:48 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:16:05 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:16:21 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:16:21 INFO  - [202 - com.cardcentric.module.fin.listener.FinModuleListener$3] NullPointerException - Unable to get checksum. Please Check Card 
+15:16:44 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:16:44 ERROR - [99 - com.cardcentric.module.fin.image.InstantImageGeneration] null 
+15:16:46 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:17:24 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:17:24 ERROR - [60 - ] Exception in thread "Thread-21" java.lang.NullPointerException 
+15:17:24 ERROR - [60 - ] 	at com.simulity.api.sei.PCSCReader.sendCommand(PCSCReader.java:363) 
+15:17:24 ERROR - [60 - ] 	at com.simulity.api.sei.PCSCReader.sendApdu(PCSCReader.java:192) 
+15:17:24 ERROR - [60 - ] 	at com.simulity.api.sei.PCSCReader.sendApdu(PCSCReader.java:395) 
+15:17:24 ERROR - [60 - ] 	at com.simulity.api.fin.cards.CXCard.send(CXCard.java:141) 
+15:17:24 ERROR - [60 - ] 	at com.simulity.api.fin.cards.CXCard.send(CXCard.java:100) 
+15:17:24 ERROR - [60 - ] 	at com.simulity.module.fin.listener.FinModuleListener.selectFile(FinModuleListener.java:631) 
+15:17:24 ERROR - [60 - ] 	at com.simulity.module.fin.listener.FinModuleListener.selectAndRead(FinModuleListener.java:599) 
+15:17:24 ERROR - [60 - ] 	at com.simulity.module.fin.listener.FinModuleListener.access$400(FinModuleListener.java:82) 
+15:17:24 ERROR - [60 - ] 	at com.simulity.module.fin.listener.FinModuleListener$5.run(FinModuleListener.java:251) 
+15:17:24 ERROR - [60 - ] 	at java.lang.Thread.run(Unknown Source) 
+15:17:31 INFO  - [225 - com.cardcentric.module.fin.FinModule] Personalisation window has been cleared 
+15:17:36 INFO  - [445 - com.platform.module.templateModule.TemplateModule] Javelin SIM Template Added Into File System 
+15:21:52 INFO  - [541 - com.cardcentric.prepersojavamodule.controller.PrePersoController$10] 3G Selected 
+15:22:44 ERROR - [93 - com.cardcentric.module.fin.pdf.GeneratePdf]  Generate PDF Failed. 
+15:22:52 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:22:52 ERROR - [99 - com.cardcentric.module.fin.image.InstantImageGeneration] null 
+15:22:54 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:23:14 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:23:42 ERROR - [270 - com.cardcentric.module.fin.FinModule] Card not detected 
+15:24:13 INFO  - [55 - com.cardcentric.cardreadermodule.controller.CRMenuItemController] Card Reader OMNIKEY CardMan 5x21 0 Selected 
+15:24:31 ERROR - [140 - com.cardcentric.module.fin.perso.PersonaliseCard$1] null 
+15:26:11 INFO  - [445 - com.platform.module.templateModule.TemplateModule] Simba SIM Template Added Into File System 
+15:26:27 ERROR - [140 - com.cardcentric.module.fin.perso.PersonaliseCard$1] null 
+15:28:31 ERROR - [96 - com.profileeditor.ddmodule.controller.DynamicDataController] No Input Template File Selected 
+15:28:37 ERROR - [60 - ] Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException 
+15:28:37 ERROR - [60 - ] 	at com.profileeditor.ddmodule.controller.DynamicDataController.loadTemplateInputFile(DynamicDataController.java:278) 
+15:28:37 ERROR - [60 - ] 	at com.profileeditor.ddmodule.listeners.ViewListener.actionPerformed(ViewListener.java:67) 
+15:28:37 ERROR - [60 - ] 	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Component.processMouseEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at javax.swing.JComponent.processMouseEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Component.processEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Container.processEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Component.dispatchEventImpl(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Container.dispatchEventImpl(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Component.dispatchEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Container.dispatchEventImpl(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Window.dispatchEventImpl(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.Component.dispatchEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventQueue.access$500(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventQueue$3.run(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventQueue$3.run(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.security.AccessController.doPrivileged(Native Method) 
+15:28:37 ERROR - [60 - ] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventQueue$4.run(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventQueue$4.run(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.security.AccessController.doPrivileged(Native Method) 
+15:28:37 ERROR - [60 - ] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventQueue.dispatchEvent(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) 
+15:28:37 ERROR - [60 - ] 	at java.awt.EventDispatchThread.run(Unknown Source) 
+15:29:16 ERROR - [96 - com.profileeditor.ddmodule.controller.DynamicDataController] No Input Template File Selected 
+15:29:43 INFO  - [1040 - com.profileeditor.application.ProfileEditor] Profile Editor Saved Successfully 
+15:29:46 INFO  - [150 - com.cardcentric.createpersoimage.controller.listeners.ActionListeners] Personalised Image File Path Loaded Successfully 
+15:31:26 INFO  - [541 - com.cardcentric.prepersojavamodule.controller.PrePersoController$10] 3G Selected 
+15:31:27 INFO  - [541 - com.cardcentric.prepersojavamodule.controller.PrePersoController$10] 3G Selected 
+15:32:02 INFO  - [679 - com.cardcentric.networkconfigmodule.controller.NetworkConfigController] OPC Selected 
+15:32:55 INFO  - [225 - com.cardcentric.module.fin.FinModule] Personalisation window has been cleared 
+15:33:16 ERROR - [60 - ] Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException 
+15:33:16 ERROR - [60 - ] 	at com.profileeditor.modules.filesystemeditor.profilevalidation.applet.AppletParamsValidator.getAppletLoadedNative(AppletParamsValidator.java:225) 
+15:33:16 ERROR - [60 - ] 	at com.profileeditor.modules.filesystemeditor.profilevalidation.applet.AppletParamsValidator.gatherNativeInconsistencies(AppletParamsValidator.java:142) 
+15:33:16 ERROR - [60 - ] 	at com.profileeditor.modules.filesystemeditor.profilevalidation.applet.AppletParamsValidator.getAppletValidation(AppletParamsValidator.java:126) 
+15:33:16 ERROR - [60 - ] 	at com.profileeditor.modules.filesystemeditor.profilevalidation.ProfileValidator.checkFiles(ProfileValidator.java:154) 
+15:33:16 ERROR - [60 - ] 	at com.profileeditor.modules.filesystemeditor.controller.FileSystemController.handleProfileValidation(FileSystemController.java:1533) 
+15:33:16 ERROR - [60 - ] 	at com.profileeditor.modules.filesystemeditor.controller.FileSystemController.handleProfileValidation(FileSystemController.java:1456) 
+15:33:16 ERROR - [60 - ] 	at com.profileeditor.modules.filesystemeditor.controller.FileSystemController$1.actionPerformed(FileSystemController.java:1564) 
+15:33:16 ERROR - [60 - ] 	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Component.processMouseEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at javax.swing.JComponent.processMouseEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Component.processEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Container.processEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Component.dispatchEventImpl(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Container.dispatchEventImpl(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Component.dispatchEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Container.dispatchEventImpl(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Window.dispatchEventImpl(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.Component.dispatchEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventQueue.access$500(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventQueue$3.run(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventQueue$3.run(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.security.AccessController.doPrivileged(Native Method) 
+15:33:16 ERROR - [60 - ] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventQueue$4.run(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventQueue$4.run(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.security.AccessController.doPrivileged(Native Method) 
+15:33:16 ERROR - [60 - ] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventQueue.dispatchEvent(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) 
+15:33:16 ERROR - [60 - ] 	at java.awt.EventDispatchThread.run(Unknown Source) 
+15:33:35 WARN  - [766 - com.cardcentric.loadingappletmodulev2.controller.LoadAppletsController] Applet Not Loaded - Invalid File Selected 
+15:34:23 ERROR - [154 - com.profileeditor.ddmodule.perso.LoadData] Dynamic Data Selected But Missing 
+15:34:23 ERROR - [445 - com.profileeditor.ddmodule.perso.LoadData] OPC Value Not Found In .out File 
+15:34:23 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:34:41 INFO  - [88 - com.cardcentric.module.fin.pdf.GeneratePdf] PDF Generated successfully 
+15:35:01 INFO  - [445 - com.platform.module.templateModule.TemplateModule] Simba SIM Template Added Into File System 
+15:35:28 ERROR - [154 - com.profileeditor.ddmodule.perso.LoadData] Dynamic Data Selected But Missing 
+15:35:28 ERROR - [445 - com.profileeditor.ddmodule.perso.LoadData] OPC Value Not Found In .out File 
+15:35:28 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:35:50 INFO  - [483 - com.platform.module.templateModule.TemplateModule] Simba USIM Template Added Into File System 
+15:35:58 ERROR - [154 - com.profileeditor.ddmodule.perso.LoadData] Dynamic Data Selected But Missing 
+15:35:58 ERROR - [445 - com.profileeditor.ddmodule.perso.LoadData] OPC Value Not Found In .out File 
+15:35:58 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:36:11 INFO  - [483 - com.platform.module.templateModule.TemplateModule] Javelin USIM Template Added Into File System 
+15:36:20 ERROR - [154 - com.profileeditor.ddmodule.perso.LoadData] Dynamic Data Selected But Missing 
+15:36:20 ERROR - [445 - com.profileeditor.ddmodule.perso.LoadData] OPC Value Not Found In .out File 
+15:36:20 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:36:59 INFO  - [218 - com.cardcentric.module.fin.listener.FinModuleListener$4] HubbException - Unable to recycle. Please Check Card 
+15:38:53 INFO  - [225 - com.cardcentric.module.fin.FinModule] Personalisation window has been cleared 
+15:40:01 INFO  - [483 - com.platform.module.templateModule.TemplateModule] Javelin USIM Template Added Into File System 
+15:40:09 ERROR - [154 - com.profileeditor.ddmodule.perso.LoadData] Dynamic Data Selected But Missing 
+15:40:09 ERROR - [445 - com.profileeditor.ddmodule.perso.LoadData] OPC Value Not Found In .out File 
+15:40:09 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:40:19 INFO  - [521 - com.platform.module.templateModule.TemplateModule] Javelin LTE Template Added Into File System 
+15:40:27 ERROR - [154 - com.profileeditor.ddmodule.perso.LoadData] Dynamic Data Selected But Missing 
+15:40:27 ERROR - [445 - com.profileeditor.ddmodule.perso.LoadData] OPC Value Not Found In .out File 
+15:40:27 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:41:26 INFO  - [445 - com.platform.module.templateModule.TemplateModule] Javelin SIM Template Added Into File System 
+15:41:35 ERROR - [154 - com.profileeditor.ddmodule.perso.LoadData] Dynamic Data Selected But Missing 
+15:41:35 ERROR - [445 - com.profileeditor.ddmodule.perso.LoadData] OPC Value Not Found In .out File 
+15:41:35 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:41:41 INFO  - [88 - com.cardcentric.module.fin.pdf.GeneratePdf] PDF Generated successfully 
+15:42:40 INFO  - [445 - com.platform.module.templateModule.TemplateModule] Javelin SIM Template Added Into File System 
+15:42:50 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:44:50 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+15:45:14 INFO  - [990 - com.profileeditor.application.ProfileEditor] Profile Editor Saved Successfully 
+15:46:47 INFO  - [521 - com.platform.module.templateModule.TemplateModule] Javelin LTE Template Added Into File System 
+15:46:52 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+15:52:50 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+15:53:43 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+15:53:52 WARN  - [796 - com.cardcentric.osinfo.OSInfo] Currently Unable To Decode The Supplied ATR. 
+15:54:20 WARN  - [796 - com.cardcentric.osinfo.OSInfo] Currently Unable To Decode The Supplied ATR. 
+15:54:37 WARN  - [796 - com.cardcentric.osinfo.OSInfo] Currently Unable To Decode The Supplied ATR. 
+15:55:06 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+15:55:17 WARN  - [796 - com.cardcentric.osinfo.OSInfo] Currently Unable To Decode The Supplied ATR. 
+15:56:01 WARN  - [796 - com.cardcentric.osinfo.OSInfo] Currently Unable To Decode The Supplied ATR. 
+15:56:56 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+15:57:01 ERROR - [220 - com.cardcentric.osinfo.OSInfo$2$1] Card Not Found 
+15:57:06 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+15:57:27 INFO  - [225 - com.cardcentric.module.fin.FinModule] Personalisation window has been cleared 
+15:57:40 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+15:57:46 WARN  - [796 - com.cardcentric.osinfo.OSInfo] Currently Unable To Decode The Supplied ATR. 
+15:57:54 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+15:59:12 ERROR - [211 - com.cardcentric.module.fin.scripts.RunScript] file doesn't have .ldr extension 
+15:59:12 WARN  - [147 - com.cardcentric.module.fin.scripts.RunScript] Validation Exception0 
+15:59:12 ERROR - [133 - com.cardcentric.module.fin.listener.FinModuleListener$1] Script verification failed 
+16:49:19 INFO  - [218 - com.cardcentric.module.fin.listener.FinModuleListener$4] HubbException - Unable to recycle. Please Check Card 
+16:49:46 INFO  - [555 - com.platform.module.templateModule.TemplateModule] USIM Template Added Into File System 
+16:49:58 INFO  - [112 - com.cardcentric.prepersojavamodule.perso.PersoController] Pre-Personalisation 
+16:49:58 INFO  - [115 - com.cardcentric.prepersojavamodule.perso.PersoController] Setting AID values 
+16:49:58 INFO  - [128 - com.cardcentric.prepersojavamodule.perso.PersoController] Sending Recycle Commands 
+16:53:16 INFO  - [521 - com.platform.module.templateModule.TemplateModule] Simba LTE Template Added Into File System 
+16:53:20 INFO  - [1009 - com.profileeditor.application.ProfileEditor] Profile Editor Saved Successfully 
+16:53:28 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+16:53:34 INFO  - [88 - com.cardcentric.module.fin.pdf.GeneratePdf] PDF Generated successfully 
+16:53:50 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+16:55:29 INFO  - [55 - com.cardcentric.cardreadermodule.controller.CRMenuItemController] Card Reader OMNIKEY CardMan 5x21 0 Selected 
+16:56:11 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+16:56:35 ERROR - [673 - com.cardcentric.module.fin.perso.LoadData] String index out of range: 22 
+16:56:35 ERROR - [105 - com.profileeditor.modules.filesystemeditor.perso.LoadData] String index out of range: 22 
+16:56:35 INFO  - [112 - com.cardcentric.prepersojavamodule.perso.PersoController] Pre-Personalisation 
+16:56:35 INFO  - [115 - com.cardcentric.prepersojavamodule.perso.PersoController] Setting AID values 
+16:56:35 INFO  - [128 - com.cardcentric.prepersojavamodule.perso.PersoController] Sending Recycle Commands 
+16:56:47 INFO  - [445 - com.platform.module.templateModule.TemplateModule] Simba SIM Template Added Into File System 
+16:56:55 ERROR - [673 - com.cardcentric.module.fin.perso.LoadData] String index out of range: 22 
+16:56:55 ERROR - [105 - com.profileeditor.modules.filesystemeditor.perso.LoadData] String index out of range: 22 
+16:56:55 INFO  - [112 - com.cardcentric.prepersojavamodule.perso.PersoController] Pre-Personalisation 
+16:56:55 INFO  - [115 - com.cardcentric.prepersojavamodule.perso.PersoController] Setting AID values 
+16:56:55 INFO  - [128 - com.cardcentric.prepersojavamodule.perso.PersoController] Sending Recycle Commands 
+16:57:04 INFO  - [88 - com.cardcentric.module.fin.pdf.GeneratePdf] PDF Generated successfully 
+16:57:31 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+16:58:11 ERROR - [673 - com.cardcentric.module.fin.perso.LoadData] String index out of range: 22 
+16:58:11 ERROR - [105 - com.profileeditor.modules.filesystemeditor.perso.LoadData] String index out of range: 22 
+16:58:11 INFO  - [112 - com.cardcentric.prepersojavamodule.perso.PersoController] Pre-Personalisation 
+16:58:11 INFO  - [115 - com.cardcentric.prepersojavamodule.perso.PersoController] Setting AID values 
+16:58:11 INFO  - [128 - com.cardcentric.prepersojavamodule.perso.PersoController] Sending Recycle Commands 
+16:58:17 INFO  - [88 - com.cardcentric.module.fin.pdf.GeneratePdf] PDF Generated successfully 
+16:59:19 ERROR - [673 - com.cardcentric.module.fin.perso.LoadData] String index out of range: 22 
+16:59:19 ERROR - [105 - com.profileeditor.modules.filesystemeditor.perso.LoadData] String index out of range: 22 
+16:59:19 INFO  - [112 - com.cardcentric.prepersojavamodule.perso.PersoController] Pre-Personalisation 
+16:59:19 INFO  - [115 - com.cardcentric.prepersojavamodule.perso.PersoController] Setting AID values 
+16:59:19 INFO  - [128 - com.cardcentric.prepersojavamodule.perso.PersoController] Sending Recycle Commands 
+17:01:09 INFO  - [483 - com.platform.module.templateModule.TemplateModule] Simba USIM Template Added Into File System 
+17:01:22 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+17:01:42 WARN  - [920 - com.cardcentric.osinfo.OSInfo] Unable To Read All Information From ATR 
+17:03:15 INFO  - [578 - com.cardcentric.prepersojavamodule.controller.PrePersoController$11] 3G Selected 
+17:03:18 INFO  - [541 - com.cardcentric.prepersojavamodule.controller.PrePersoController$10] 3G Selected 
+17:03:21 INFO  - [578 - com.cardcentric.prepersojavamodule.controller.PrePersoController$11] 3G Selected 
+17:04:05 ERROR - [211 - com.cardcentric.prepersojavamodule.perso.PersoController] OS Not Supported - Please contact supplier. 
+17:04:13 INFO  - [88 - com.cardcentric.module.fin.pdf.GeneratePdf] PDF Generated successfully 

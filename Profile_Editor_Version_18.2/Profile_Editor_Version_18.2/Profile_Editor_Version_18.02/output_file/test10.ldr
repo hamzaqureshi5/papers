@@ -1,0 +1,26 @@
+REM ----------------------------------------------------
+REM This script was created with Profile Editor Version 18.4.
+REM The script was created on: 07/05/2024 at 16:32 PM
+REM The card used was: Unknown - Unknown
+REM The OS used was: UT005.02
+REM ----------------------------------------------------
+
+CMD	E0 CA DF 1F 13 
+
+CMD	E0 CA DF 1F 13 
+
+CMD	E0 CA DF 20 01 
+
+CMD	E0 CA DF 1F 13 
+
+CMD	E0 CA DF 1F 13 
+
+CMD	E0 CA DF 1F 13 
+
+RST
+
+CMD	E0 12 00 00 21 00 00 00 00 00 00 00 00 00 4A 55 \
+	54 75 30 30 38 4B 2D C1 E7 49 DD C0 2F D3 A8 BF \
+	91 63 72 21 F4 7C \
+	(63 F1)
+
