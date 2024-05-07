@@ -1,0 +1,158 @@
+REM ----------- USIM Template ----------------------
+
+RST
+
+REM ----------------------
+REM SELECT DF SYSTEM
+REM ----------------------
+
+CMD 00 A4 00 0C 02 3F 00
+(9000)
+
+REM Select DF SYSTEM
+CMD 00 A4 00 0C 02 A5 15
+(9000)
+
+REM ----------------------------------------------------------------------
+REM                       Pin/ADM Config
+REM ----------------------------------------------------------------------
+
+REM ------ PIN 1 -------------
+CMD 00 A4 00 0C 02 6F 01
+(9000)
+CMD 00 D6 00 00 15 F0 03 03 30303030FFFFFFFF 0A 0A #PUK1_HEX#
+(9000)
+
+REM ------ PIN 2 -------------
+CMD 00 A4 00 0C 02 6F 81
+(9000)
+CMD 00 D6 00 00 15 F0 03 03 3030303031FFFFFF 0A 0A #PUK2_HEX#
+(9000)
+
+REM ------ ADM 1 -------------
+CMD 00 A4 00 0C 02 6F 0A
+(9000)
+CMD 00D600000B 80 0A 0A #ADM1_HEX#
+(9000)
+
+REM ------ Disable Pin1 ---------
+REM CMD 00 26 00 01 08 30303030FFFFFFFF
+REM (9000)
+
+REM ----------------------------------------------------------------------
+REM                       Network Authentication Config
+REM ----------------------------------------------------------------------
+
+REM ------ Algorithm & Ki Configuration -----
+CMD 00 A4 00 0C 02 6F 20
+(9000)
+REM    01	COMP128-1 
+REM    02	COMP128-2
+REM    03	COMP128-3
+REM    04	Milenage
+REM    14	Milenage with OPC [SELECTED]
+REM
+REM NETWORK CONFIG         [Algo]   [Ki]      [OPC]
+CMD 00 D6 00 00 21          14      #KI#      #OPC#
+(9000)
+
+REM ----- UPDATE EF MILENAGE CONFIG ---------
+CMD 00 A4 00 0C 02 6F 21
+(9000)
+CMD 00 D6 00 00 55 40 00 20 40 60 00000000000000000000000000000000 00000000000000000000000000000001 00000000000000000000000000000002 00000000000000000000000000000004 00000000000000000000000000000008
+(9000)
+
+REM ----------------------------------------------------------------------
+REM                       Subscription Config
+REM ----------------------------------------------------------------------
+
+REM ------- ICCID ---------
+REM Select MF
+CMD 00 A4 00 0C 02 3F 00
+(9000)
+REM Select ICCID
+CMD 00 A4 00 0C 02 2F E2
+(9000)
+CMD 00 D6 00 00 0A #ICCID_EF#
+(9000)
+
+REM ------- IMSI ---------
+REM Select MF
+CMD 00 A4 00 0C 02 3F 00
+(9000)
+REM Select DF GSM
+CMD 00 A4 00 0C 02 7F 20
+(9000)
+REM Select IMSI
+CMD 00 A4 00 0C 02 6F 07
+(9000)
+REM Update EF IMSI  
+CMD 00 D6 00 00 09 #IMSI_EF#
+(9000)
+
+REM ------- ACC ----------
+REM Select EF ACC
+CMD 00 A4 00 0C 02 6F 78
+(9000)
+REM Update ACC
+CMD 00 D6 00 00 02 #ACC#
+(9000)
+
+CMD 00 A4 00 0C 02 3F 00
+(9000)
+CMD 00 A4 00 0C 02 A5 15
+(9000)
+CMD 00 A4 00 0C 02 6F 22
+(9000)
+CMD 00 DC 01 04 1B FF  FF      FF             FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF       FFFFFFFFFFFFFFFF
+(9000)
+CMD 00 DC 02 04 1B FF  FF      FF             FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF       FFFFFFFFFFFFFFFF
+(9000)
+CMD 00 DC 03 04 1B FF  FF      FF             FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF       FFFFFFFFFFFFFFFF
+(9000)
+
+CMD 00 A4 00 0C 02 6F 23
+(9000)
+CMD 00 DC 01 04 07 FF   FF       FF FF FF FF FF
+(9000) 
+
+RST
+
+REM **************************
+REM USIM PART
+REM **************************
+
+REM SELECT USIM - CHANGE TO APPROPRIATE AID
+CMD 00A4040C  10  A0000000871002FF86110489FFFFFFFF
+(9000)
+
+REM ----------------------------------------------------------------------
+REM                       Network Authentication Config
+REM ----------------------------------------------------------------------
+
+REM USIM OP/MILENAGE
+CMD 00 A4 00 0C 02 AF 20
+(9000)
+REM Algorithm & Ki Configuration
+REM    01	COMP128-1
+REM    02	COMP128-2
+REM    03	COMP128-3
+REM    04	Milenage
+REM    14	Milenage with OPC [SELECTED]
+REM 
+REM NETWORK CONFIG         [Algo]   [Ki]      [OPC]
+CMD 00 D6 00 00 21          14      #KI#      #OPC#
+(9000)
+
+REM --- UPDATE EF MILENAGE CONFIG ----
+CMD 00 A4 00 0C 02 AF 21
+(9000)
+CMD 00 D6 00 00 55 40 00 20 40 60 00000000000000000000000000000000 00000000000000000000000000000001 00000000000000000000000000000002 00000000000000000000000000000004 00000000000000000000000000000008 
+(9000)  
+
+REM ------------------------------------------------------------------------
+REM --- LOCK PERSO INTO OPERATIONAL STATE - NO MORE UPDATES FOR PROP EFs ---
+REM ------------------------------------------------------------------------
+REM Verify ICCID license
+CMD #LICENSE_KEY#
+(9000)
